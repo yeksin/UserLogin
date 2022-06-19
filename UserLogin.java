@@ -5,25 +5,25 @@ public class UserLogin {
         String x,y;
         Scanner input= new Scanner(System.in);
 
-        System.out.print("Kullancı adını giriniz: ");
+        System.out.print("KullancÄ± adÄ±nÄ± giriniz: ");
         x=input.nextLine();
 
-        System.out.print("Şifreyi giriniz: ");
+        System.out.print("Åifreyi giriniz: ");
         y= input.nextLine();
 
-        if (x.equals("yeksin") && y.equals("parola123")){
-            System.out.println("Giriş yaptınız! ");
+       if (x.equals("yeksin") && y.equals("parola123")){
+            System.out.println("GiriÅŸ yaptÄ±nÄ±z! ");
         }
         else  {
-            System.out.println("Kullanıcı veya şifre hatalı! Lütfen yeni şifre belirleyin: ");
+            System.out.print("KullanÄ±cÄ± veya ÅŸifre hatalÄ±! LÃ¼tfen yeni ÅŸifre belirleyin: ");
         }
         y= input.nextLine();
 
         if (y.equals("parola123")){
-            System.out.println("Yeni şiferniz eski şifrenizle aynı olamaz, lütfen başka bir şifre belirleyin..");
+            System.out.println("Yeni ÅŸifreniz eski ÅŸifrenizle aynÄ± olamaz, lÃ¼tfen baÅŸka bir ÅŸifre belirleyin..");
         }
         else {
-            System.out.println("Şifre oluşturuldu. Giriş yapılıyor..");
+            System.out.println("Åifre oluÅŸturuldu. GiriÅŸ yapÄ±lÄ±yor..");
         }
 
     }
